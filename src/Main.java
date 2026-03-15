@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Conta c1 = new Conta("Thales",100,"100.482.556-15", 16, 9, 2026);
-        c1.sacar(50, 11, 3, 2026);
-        c1.depositar(200, 12, 3, 2026);
-        c1.resumo();
+        Conta conta = new Conta("Thales", "202.344.180-20", 12345, 100, 15, 3, 2026);
+        conta.sacar(50, 16, 3, 2026);
+        conta.depositar(200, 17, 3, 2026);
+        conta.resumo();
     }
 }
